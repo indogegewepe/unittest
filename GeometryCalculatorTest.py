@@ -40,4 +40,3 @@ class GeometryCalculatorTest(unittest.TestCase):
         self.assertEqual(actualResult, expectedResult)
 
 unittest.main()
-
