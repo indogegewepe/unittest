@@ -9,4 +9,6 @@ class DiscountCalculator:
         else:
             return 0.0
         
+print(DiscountCalculator.calculate_discount(1000))
+print(DiscountCalculator.calculate_discount(500))
 print(DiscountCalculator.calculate_discount(1))
