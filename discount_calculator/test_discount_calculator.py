@@ -23,4 +23,5 @@ class DiscountCalculatorTest(unittest.TestCase):
         expected_discount = 0.0
         self.assertEqual(actual_discount, expected_discount)
 
-unittest.main()
+if __name__=='__main__':
+    unittest.main()
