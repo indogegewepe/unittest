@@ -8,9 +8,9 @@ def calculate_discount(volume):
     else:
         return 0.0
 
-for i in range(0, 1500):
-    print(calculate_discount(i))
+# for i in range(0, 1500):
+#     print(calculate_discount(i))
 
-# print(calculate_discount(1000))
-# print(calculate_discount(500))
-# print(calculate_discount(1))
+print(calculate_discount(1000))
+print(calculate_discount(500))
+print(calculate_discount(1))
