@@ -1,4 +1,5 @@
 class GeometryCalculator:
+
     def luas_segitiga(alas, tinggi):
         return 0.5 * alas * tinggi
     def luas_persegi_panjang(panjang, lebar):
@@ -7,8 +8,9 @@ class GeometryCalculator:
         return alas * tinggi
     def luas_persegi(sisi):
         return sisi * sisi
-
-print(GeometryCalculator.luas_segitiga(10, 5))
-print(GeometryCalculator.luas_persegi_panjang(10, 5))
-print(GeometryCalculator.luas_jajargenjang(10, 5))
-print(GeometryCalculator.luas_persegi(10))
+    
+    def diameter_lingkaran(self, jarijari):
+        return 2 * jarijari
+    def luas_lingkaran(self, jarijari):
+        diameter = self.diameter_lingkaran(jarijari)
+        return (1/4) * 3.14159265359 * (diameter * diameter)
